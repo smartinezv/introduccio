@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registre</title>
+</head>
+<body>
+    <h1>Exercici, formulari de registre</h1>
+    <form action="registre.html" method="get">
+        <div>
+            <label for="IDNom">Nom:</label>
+            <input id="IDNom" type="text" name="Nom:">
+            <label for="IDLlinatges">Llinatges:</label>
+            <input id="IDLlinatges" type="text" name="Llinatges:">
+        </div>
+        <div>
+            <label for="IDHome">Home:</label>
+            <input id="IDHome" type="radio" name="Opcions"
+            value="Opció-1">
+            <label for="IDDona">Dona:</label>
+            <input id="IDDona" type="radio" name="Opcions"
+            value="Opció-2">
+            <label for="IDAltre">Altre:</label>
+            <input id="IDAltre" type="radio" name="Opcions"
+            value="Opció-3">
+        </div>
+        <div>
+            <label for="IDMail">Email:</label>
+            <input id="IDMail" type="email" name="Email:" placeholder="El teu mail">
+            <label for="IDContrasenya">Contrasenya:</label>
+            <input id="IDContrasenya" type="password" name="Contrasenya:" min="5" max="10">
+        </div>
+        <div>
+            <label for="IDData">Data de naixament:</label>
+            <input id="IDData" type="date" name="Data de naixament:">
+        </div>
+        <div>
+            <label for="IDTermes">Estic d'acord amb els termes i condicions:</label>
+            <input id="IDTermes" type="checkbox" name="Termes i condicions">
+        </div>
+        <div>
+            <input type="submit" value="submit" name="submit">
+        </div>
+    </form>
+</body>
+</html>
