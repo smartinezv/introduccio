@@ -19,7 +19,9 @@ li{
 }
 
 /*canvia el color de fons de cada paràgraf a groc*/
-
+p{
+    background-color: yellow;
+}
 
 /*fes que tots els inputs tinguin un border de 3px vermell*/
 
